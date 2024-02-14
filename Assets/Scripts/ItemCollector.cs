@@ -19,4 +19,14 @@ public class ItemCollector : MonoBehaviour
             collectCoinSound.Play();
         }
     }
+
+    public int GetCoinCount()
+    {
+        return coinCount;
+    }
+
+    public void SetCoinCount(int newCoinCount)
+    {
+        coinCount = newCoinCount;
+    }
 }
